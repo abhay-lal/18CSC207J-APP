@@ -15,9 +15,6 @@ class DSBS:
 
 
 obj1 = CTECH()
-obj2 = CINTEL()
-obj3 = NWC()
-obj4 = DSBS()
 
 print('Obj1 belongs to Class CTECH and not CINTEL hence:')
 print(isinstance(obj1, CINTEL))
